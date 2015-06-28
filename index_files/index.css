@@ -1,0 +1,261 @@
+html{
+	color:white;
+	min-width:800px;
+}
+/* Slides */
+.background{
+	position:absolute;
+	background-size: cover;
+	width: 100%;
+	background-color: black;
+	opacity: 0.8;
+	z-index: 0;
+	height: 100%;
+}
+.slide-wrapper{
+}
+.centered{
+	text-align:center;
+	position:absolute;
+	top: 50%;
+	width: 100%;
+	z-index: 3;
+	height: 0px;
+	margin-top: -50px;
+}
+
+.centered-background{}
+.layout-black{
+	background: black;
+	position:absolute;
+	z-index: 1;
+	width:100%;
+	opacity: 0.4;
+	height:100%;
+}
+
+
+				/* First page */
+				.description {
+				    width: 60%;
+				    display: inline-block;
+				    padding-top: 10px;
+				    margin-top: 10px;
+				    color: white;
+				    font-family: robotocondensed;
+				    letter-spacing: 2px;
+				    font-size: 25px;
+				    border-top: 1px solid white;
+				}
+				.title {
+				    font-size: 65px;
+				    font-family: LatoLig;
+				    letter-spacing: 1px;
+				    color: rgb(255, 255, 255);
+				}
+				/* About page */
+				.about-description {
+				    width: 45%;
+				    display: inline-block;
+				    padding-top: 10px;
+				    text-align: center;
+				    margin-top: 10px;
+				    color: white;
+				    font-family: robotocondensed;
+				    letter-spacing: 2px;
+				    font-size: 20px;
+				    /*border-top: 1px solid white;*/
+				}
+				.about-title {
+				    width: 80%;
+				    text-align: center;
+				    margin: 0px auto;
+				    margin-top: 40px;
+					margin-bottom:0px;
+					color: gray;
+				    font-size: 50px; font-family: LatoLig; 
+                    letter-spacing: 1px; 
+				    text-decoration: underline;
+				}
+				/* Stats page */
+				.stats-title {
+				    width: 80%;
+				    text-align: center;
+				    margin: 0px auto;
+				    margin-top: 40px;
+					margin-bottom:50px;
+				    font-size: 50px; font-family: LatoLig; letter-spacing: 1px; 
+				    text-decoration: underline;
+}
+				.stats-description {
+				    width: 80%;
+				    margin: 0px auto;
+				    text-align: left;
+				    font-family: LatoLig;
+}
+
+				.map-picture{
+					width: 439px;
+					height: 493px;
+					
+				}	
+					.stats-team{
+				    margin-top: 100px;
+				}
+					.stats-teammate{
+				    display: inline-block;
+                   
+				    margin: 0px 80px;
+				}
+					.teammate-picture{
+						width: 200px;
+						height: 200px;
+                        
+					}
+					.teammate-description{
+                    margin-top: 20px;
+                    font-size: x-large;
+				    font-family: LatoLig;
+				}
+
+                    .contact-title {
+				    width: 80%;
+				    text-align: center;
+				    margin: 0px auto;
+				    margin-top: 40px;
+					margin-bottom:50px;
+					color: gray;
+				    font-size: 50px; font-family: LatoLig; letter-spacing: 1px; 
+				    text-decoration: underline;
+            }
+				
+.centered-teammates{
+	margin-top: -280px;
+}
+
+.centered-contact{
+	margin-top: -280px;
+}
+
+.centered-about{
+	margin-top: -280px;
+}
+
+.centered-mailto{
+	margin-top: 240px;
+}
+				
+				
+/* Header */
+#header {
+    width: 100%;
+    min-width: 800px;
+    height: 80px;
+    position: absolute;
+    border-bottom: 2px solid rgb(126, 126, 126);
+    z-index: 100;
+    background: rgb(255, 255, 255);
+    opacity: 0.9;
+    /*padding-bottom: 10px;*/
+}
+.logo{
+    position: absolute;
+    /*display: inline-block;*/
+    min-width: 300px;
+    margin-left: 8px;
+    top: 0px;
+    float: left;
+
+    /*background-position: 50%;*/
+    height: 80px;
+    /*min-height: 80px;*/
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+.menu {
+    position: absolute;
+    right:20px;
+    width:auto;
+}
+.menu-link {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0px 14px;
+    font-family: LatoLig;
+    font-size: 18px;
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+}
+.menu-link:hover {
+    color: rgb(184, 184, 184);
+}
+#header-logos{
+	text-align: center;
+	padding-top: 10px;
+	min-width: 400px;
+	margin-bottom: 20px;
+}
+.menu-link-active{
+    color: rgb(131, 173, 56);
+}
+
+/* Logos */
+.logo-thatsit{
+	background-image:url(../images/thatsit_logo.png);
+}
+
+.register-button,.register-button:visited{
+    font-family: LatoLig;
+		text-decoration:none;
+		color:white;
+    background: rgb(146, 157, 58);
+    border-radius: 7px;
+    display: inline-block;
+    width: 160px;
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.register-button:hover{
+    background: rgb(68, 94, 47);	
+}
+
+
+
+
+
+
+
+
+/* Clearfix */
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
